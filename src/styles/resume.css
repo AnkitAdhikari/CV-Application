@@ -1,0 +1,77 @@
+.resume {
+  position: sticky;
+  top: 0px;
+}
+
+.intro-container {
+  background-color: #0e374e;
+  height: 150px;
+  color: #fff;
+}
+
+.edu-title,
+.exp-title {
+  background-color: #0e374e12;
+  margin: 40px 0 10px;
+  padding: 5px 0px;
+  color: #0e374e;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.left {
+  gap: 10px;
+}
+.company,
+.board {
+  font-weight: 600;
+}
+
+.btn {
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+  color: #fff;
+}
+
+.intro-container {
+  padding: 0px 40px;
+}
+.edu-title,
+.edu-container,
+.exp-title,
+.exp-container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.edu-container .right,
+.exp-container .right {
+  text-align: left;
+}
+.btn-add {
+  background-color: #17a2b8;
+}
+
+.btn-add:hover {
+  background-color: #1592a6;
+}
+.btn-submit {
+  background-color: #28a745;
+}
+.btn-submit:hover {
+  background-color: #24963e;
+}
+.btn-del {
+  background-color: #dc3545;
+}
+.btn-del:hover {
+  background-color: #c6303e;
+}
+.btn-cancel {
+  background-color: #ffc107;
+}
+.btn-cancel:hover {
+  background-color: #e6ae06;
+}

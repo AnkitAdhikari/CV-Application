@@ -1,0 +1,16 @@
+.edu-title {
+  text-align: center;
+}
+.education {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+.right {
+  text-align: right;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}

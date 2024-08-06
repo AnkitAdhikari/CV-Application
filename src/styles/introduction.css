@@ -1,0 +1,18 @@
+.intro-container {
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.address,
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.email,
+.phone {
+  justify-content: flex-end;
+}

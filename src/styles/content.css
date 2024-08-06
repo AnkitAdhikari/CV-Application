@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+.edit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.edit-form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  margin-bottom: 10px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  gap: 10px;
+}
+.content-title {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.content-title:hover {
+  background-color: rgb(235, 235, 235);
+}
+.content-heading {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+input,
+button,
+textarea {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  font-size: 14px;
+  padding: 5px;
+}
+
+textarea {
+  resize: vertical;
+}

@@ -1,0 +1,9 @@
+.exp-title {
+  text-align: center;
+}
+.experience {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
