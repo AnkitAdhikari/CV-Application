@@ -1,3 +1,7 @@
+# CV-Application
+
+CV Application project made while going through Odin Project React course
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
